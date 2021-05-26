@@ -1,0 +1,29 @@
+Title: Turini Group
+----
+Client: Turini Group
+----
+Introduction: 
+Brand refresh and a completely renewed website network for a modern Law firm.
+----
+Text: 
+
+Turini Group is a well established *Law firm* headed by **Laura Turini**, which takes pride in a 
+long experience in the field of patents, trademarks and copyright protection.
+
+I worked with Laura to build a new set of websites that could communicate the diverse
+legal and consulting offer while keeping a unitary company presentation. 
+
+I created the network on a **WordPress** *multisite* environment with some custom back-end utilities to make it easy 
+for the client to manage content and newsletters.
+
+The work involved the **revision of the stationery**. Particularly, business cards have been
+*letterpress printed* on thick cotton paper using custom plates for the logo to give the cards
+both an elegant and solid feel.
+
+
+----
+Services: Design, Website, Print
+----
+More: (link: http://turinigroup.com/en text: Visit website)
+----
+Featured: yes

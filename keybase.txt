@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/puleddu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://antoniopiu.com
+  * I am puleddu (https://keybase.io/puleddu) on keybase.
+  * I have a public key with fingerprint 437A B3CC 5A0E CF26 907E  B0D1 C224 2C1D 246F 3AC9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "437ab3cc5a0ecf26907eb0d1c2242c1d246f3ac9",
+            "host": "keybase.io",
+            "key_id": "c2242c1d246f3ac9",
+            "kid": "01012ea1bd48a0c79d32a4c3bf3b79bbcb6099a11194110c4b0c74b5a5065ee40c1e0a",
+            "uid": "92cd129cef966637183df3cb8d13c700",
+            "username": "puleddu"
+        },
+        "revoke": {
+            "sig_ids": [
+                "4554b2235796bd37b6fd864d7022f034559dd580bc641da1f1e0f2c3e7f5fed80f"
+            ]
+        },
+        "service": {
+            "hostname": "antoniopiu.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422434127,
+    "expire_in": 157680000,
+    "prev": "de4fc3890f0425696e57237f4ac903363dbda6199af0e3110aeae8cdce9f11ad",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMJpAnicbZJvaJVVHMfvdKVO/AOhieyiHAZB3Nz595zneS4oLIwGvghJysqY5+/d
+49XnuXvuc2+76CjDBCXFqBfLrLmmqAvzRWo0w7a2QidFubJtUC9i2EZgQQ4RgzzP
+0HedN4dzft/z+X3P95yRJfMzDXUXis+8NVbMwbprQx9WMluu9Dy3G4hI1UB+Nyjq
+uckEYUHHpTgIE5AHlLhcECkdDrU0mPnQ1QIqJDGmWCKFKTOESx/kQHtUTk9YjOBl
+vS6I7J5dtAXK7v6PvjhXgAgirDkSinocStdXBHMqiTBEuL4QUjDo+xwh5FOEoKTC
+iqhwuAOZozWFEmnILa4yh/OxVAj7UhufMUZc5BFliBSeQkS6EKbCso5Dvktbdamy
+UytVAV05EOtqVNRpAOWgYD2XQf4VQB2HCoyJ4/pMKOIKZpTHqHIhxgYSW/aVcjwo
+JKNIcWSsF4Ml0a5xjFYeNOBVy7YNq4Gcg6chPWjOwyQKg6gUVNbJaJc1VoqjJJLR
+TltrT5JSPrWV1Eqp9jUt2h5Q2kQQKvtG9kBVx+UgCkEeWaVMghSLqE2aUITdHNCd
+pSDWbUGqcFzmQTvSNrpqkUpTI4nnQwMpdpjPtONi4hpqXwcSwogSijNkszdQExs9
+11x7UkntG4S4Aum9OsII5Km1yQsWaZMLeVKJNej6enBbfaauIfPoI/PSX5ZpWLT8
+4d/rG1/w37bxLRMF59Kts6tWjw621Mvm7I1lw73j08Md3U/9u3H+3k+ubb158vKt
+3PST3pnR7L57b7cOfTbWuWbl4b9fPndpYOFPp3/b88Hi17tvZht/GXr38o9B+ZuX
+3rl+YlHDd9Nn+vnxhWppy97NM8/3TyRbS/WjK5p3zPRMLHhjQ9/PHScGmpeszc5M
+fnTxiaNTm882HcMkfrr3iyNN119sHfj24NSNz/tuN37fePzK7NGukf6rJ58FlUOF
+Wn721HgzW/nrl0lt1aaxvv07zj12YX/1zcn3RjIHmnq6726/PekuHbnX/X528Ieo
+9a/hq7Oncqv/WDH11fnexzvvfAw/Xdbyz7w/11/8/Vj7pvXnay/I+whFTP8=
+=8rzd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/puleddu
+
+==================================================================
