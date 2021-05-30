@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ title or metadata.title }}</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="{{ metadata.description }}" />
+  <meta name="keywords" content="{{ metadata.keywords }}" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+  <link rel="alternate icon" type="image/png" href="{{ '/assets/images/favicon.png' | url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | url }}">
+</head>
+<body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+	<div id="cover">
+		<div class="wrapper">
+			<header>
+				<div id="logo">
+					<a href="{{ metadata.siteurl }}"><img src="{{ '/assets/images/logo.svg' | url }}" alt="Logo" width="40px"/></a>
+				</div>
+				<div id="intro">
+        {% if page.url == '/' %}
+        	<aside class="resume"><p>{{ resume | safe }}</p></aside>
+        {% else %}
+          <div class="sitename">
+						<a href="{{ metadata.siteurl }}">{{ metadata.title }}<span>{{ metadata.description }}</span></a>
+					</div>	
+        {% endif %}
+				</div>
+				<nav class="menu">
+		      <a href="/about">About</a> <span class="sep">/</span> <a href="/works">Works</a>
+        </nav>
+			</header>
+		</div>
+	</div>
+  {{ content | safe }}
+  <footer>
+    <div class="closure">
+      <div class="copyright">{{ metadata.copyright | safe }}</div>
+      <div class="source">The source is on <a href="/https://github.com/puleddu/antoniopiu.com">GitHub</a></div>
+    </div>
+  </footer>
+</body>
+</html>

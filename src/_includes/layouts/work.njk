@@ -1,0 +1,64 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="wrapper">
+	<section class="content">
+    <article>
+      {% if cover %}
+      <div class="cover">
+        <img src="{{ cover }}" alt="{{ title }}" width="960px" />
+      </div>
+      {% endif %}
+      {% if client %}
+      <div class="client">{{ client }}</div>
+      {% endif %}
+      {% if introduction %}
+      <div class="introduction"><p>{{ introduction }}</p></div>
+      {% endif %}
+      <div class="description">
+        <div class="text">{{ content | safe }}</div>
+        <aside>
+          <div class="services">
+            <h3>Services included</h3>
+            <ul>
+              {%- for service in services -%}
+              <li>{{ service }}</li>
+              {%- endfor -%}
+            </ul>
+          </div>
+          {% if more %}
+          <div class="more">
+            <h3>More</h3>
+            {{ more | safe }}
+          </div>
+          {% endif %}
+        </aside>
+      </div>
+      <div class="showcase">
+        {%- for image in showcase -%}
+        <img src="{{ image }}" alt="" width="100%" />
+        {%- endfor -%}
+      </div>
+    </article>
+  </section>
+  <aside>
+		<nav>
+      {% set previous = collections.work | sortByIndex | getPreviousCollectionItem(page) %}
+      {% set next = collections.work | sortByIndex | getNextCollectionItem(page) %} 
+	    <div class="icon prev">
+		    {% if previous %}
+		    <a href="{{ previous.url }}">Previous</a>
+		    {% endif %}
+	    </div>
+	    <div class="icon list">
+		    <a href="/works">List</a>
+	    </div>
+	    <div class="icon next">
+        {% if next %}
+		    <a href="{{ next.url }}">Next</a>
+		    {% endif %}
+    	</div>
+    </nav>
+	</aside>
+</div>

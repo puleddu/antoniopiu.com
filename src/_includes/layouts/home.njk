@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="wrapper">
+	<section class="content">
+  {% for work in collections.work | onlyFeatured | sortByIndex %}
+    {% include 'components/work-item.njk' %}
+  {% endfor %}
+  </section>
+</div>
+<aside>
+  <div class="contact">
+    <p>{{ contact | safe }}</p>
+  </div>
+</aside>

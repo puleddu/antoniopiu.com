@@ -1,0 +1,27 @@
+{
+  "name": "antoniopiu",
+  "version": "1.0.0",
+  "description": "antoniopiu.com",
+  "repository": "https://github.com/puleddu/antoniopiu.com",
+  "scripts": {
+    "watch:sass": "sass --watch src/assets/scss:_site/assets/css",
+    "build:sass": "sass --no-source-map src/assets/scss:_site/assets/css",
+    "build-local:sass": "sass src/assets/scss:_site/assets/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build-local:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  },
+  "keywords": [],
+  "author": "Antonio Piu",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it": "^12.0.6",
+    "markdown-it-anchor": "^7.1.0",
+    "markdown-it-footnote": "^3.0.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.34.0"
+  }
+}

@@ -1,0 +1,18 @@
+<article class="list">
+	<div class="image">
+		<a href="{{ work.url }}">
+		  <img src="{{ work.url }}/{{ work.data.thumbnail }}" alt="{{ work.data.title }}" />
+	  </a>
+	</div>
+	<div class="caption">
+		<h2><a href="{{ work.url }}">{{ work.data.title }}</a></h2>
+	  <div class="services">
+      <p>
+      {% set comma = joiner() %}
+      {% for service in work.data.services -%}
+      {{ comma() }} {{ service }}
+      {%- endfor %}
+      </p>
+    </div>
+	</div>
+</article>

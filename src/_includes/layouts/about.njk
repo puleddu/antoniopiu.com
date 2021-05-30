@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="wrapper">
+	<section class="content">
+		<article>
+			{% if cover %}
+  		<div class="cover">
+    		<img src="{{ cover }}" alt="{{ title }}" width="960px" />
+  		</div>
+  		{% endif %}
+
+			{% if subtitle %}
+			<div class="subtitle">
+				{{ subtitle | safe }}
+			</div>
+			{% endif %}
+
+			{% if introduction %}
+			<div class="introduction">
+				<p>{{ introduction | safe }}</p>
+			</div>
+			{% endif %}
+	
+			<div class="columns">
+				<div class="text">
+					{{ content | safe }}
+				</div>
+				<aside>
+					<div class="aside">
+						<h3>Find me elsewhere</h3>
+						<ul>
+							{%- for account in metadata.social -%}
+              <li><a href="account.url">{{ account.name }}</a></li>
+              {%- endfor -%}
+							<li></li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>Contact me</h3>
+						<p>
+						If you're interested in working with me, or you just want to say <em>hi</em>, 
+						feel free to <a href="mailto:me@antoniopiu.com">get in touch</a>.
+						</p>
+					</div>
+					<div class="portrait aside">
+						<img src="{{ portrait }}" alt="<?php echo html($page->title()) ?>" width="100%" />
+						<div class="caption">
+							<em>Me</em>, behind the light leaks's glares of my <em>Contax 139Q</em>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</article>
+	</section>
+</div>
