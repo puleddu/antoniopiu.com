@@ -2,7 +2,7 @@
 layout: layouts/about.njk
 title: About
 subtitle: About me
-introduction:  I'm a typography lover and book sniffer.<br>I make and enjoy simple things.
+introduction:  I'm a typography lover and book sniffer. <br>I make and enjoy simple things.
 cover: cover.jpg
 portrait: antonio.jpg
 ---
@@ -10,7 +10,7 @@ portrait: antonio.jpg
 ## Life and work
 
 I'm an Italian living and working in beautiful **Berlin**, Germany.  
-I grew up **Sardinia**, a _sunny_ island in middle of the Mediterranean Sea. I have been lucky enough to spend 12 years of my life in **Tuscany**, where I ran a one-man design business while studying Computer Engineering at the University of Pisa.
+I grew up in **Sardinia**, a _sunny_ island in the middle of the Mediterranean Sea. I have been lucky enough to spend 12 years of my life in **Tuscany**, where I ran a one-man design business while studying Computer Engineering at the University of Pisa.
 
 I did not graduate; my job took higher priority over the years and my interests changed over time. However, my academic experience is an important aspect of my education and it contributed substantially to build the rich spectrum of skills I have today.
 
@@ -29,5 +29,5 @@ The website is generated using [Eleventy](https://www.11ty.dev/) and served thro
 I used [Entypo](http://www.entypo.com/) for the pictograms, while the font I used to create the logo is called [Stacked](https://creativemarket.com/denilchan/3398-Stacked-Font) by [Denise Chandler](https://www.dcfonts.com/).
 
 [^1]: _Rigoletto_, _Aida_, _Il Trovatore_, _Il Barbiere di Siviglia_, _Andrea Chénier_ and _Cavalleria Rusticana_ to name some.
-[^2]: The photo of Italo Calvino (scanned from an old newspaper) and the aerial shot of the mansion are not shoots of mine.
+[^2]: The photo of Italo Calvino (scanned from an old newspaper) and the aerial shot of the mansion are not shots of mine.
 [^3]: E.g. [Visual Studio Code](https://code.visualstudio.com/), [Git](http://git-scm.com/), [Tower](https://www.git-tower.com/).
