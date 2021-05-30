@@ -31,8 +31,8 @@ layout: layouts/base.njk
 					<div class="aside">
 						<h3>Find me elsewhere</h3>
 						<ul>
-							{%- for account in metadata.social -%}
-              <li><a href="account.url">{{ account.name }}</a></li>
+							{%- for account in metadata.accounts -%}
+              <li><a href="{{ account.url }}">{{ account.name }}</a></li>
               {%- endfor -%}
 							<li></li>
 						</ul>
