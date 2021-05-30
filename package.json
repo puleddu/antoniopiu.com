@@ -5,7 +5,7 @@
   "repository": "https://github.com/puleddu/antoniopiu.com",
   "scripts": {
     "watch:sass": "sass --watch src/assets/scss:_site/assets/css",
-    "build:sass": "sass --no-source-map src/assets/scss:_site/assets/css",
+    "build:sass": "sass --no-source-map --style compressed src/assets/scss:_site/assets/css",
     "build-local:sass": "sass src/assets/scss:_site/assets/css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
