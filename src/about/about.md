@@ -24,7 +24,9 @@ I like **photography**, fixing old typewriters, and singing. During my time in P
 
 All the photos[^2] used to showcase my work have been taken using both my film and digital cameras.
 
-The website is generated using [Eleventy](https://www.11ty.dev/), and served through [GitHub](https://github.com/puleddu). The content is  "typesetted" using [Merriweather](https://fonts.google.com/specimen/Merriweather) and its _sans_ companion [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans). The font I used to create the logo is called [Stacked](https://creativemarket.com/denilchan/3398-Stacked-Font) by [Denise Chandler](https://www.dcfonts.com/). I also used a number of other tools.[^3]
+The website is generated using [Eleventy](https://www.11ty.dev/), and served through [GitHub](https://github.com/puleddu). The content is "typesetted" using [Merriweather](https://fonts.google.com/specimen/Merriweather) and its _sans_ companion [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans), while the font I used to create the header logo is [Stacked](https://creativemarket.com/denilchan/3398-Stacked-Font) by [Denise Chandler](https://www.dcfonts.com/). 
+
+I also used a number of other tools.[^3]
 
 [^1]: _Rigoletto_, _Aida_, _Il Trovatore_, _Il Barbiere di Siviglia_, _Andrea Chénier_ and _Cavalleria Rusticana_ to name some.
 [^2]: The photo of Italo Calvino (scanned from an old newspaper) and the aerial shot of the mansion are not shots of mine.
