@@ -1,11 +1,11 @@
 {
   "title": "Antonio Piu",
-  "tagline": "Design Director, Front-end Developer",
+  "tagline": "Design Director, Software Developer",
   "siteurl": "/",
   "language": "en",
-  "description": "Design Director, Front-end Developer",
-  "keywords": "design, web, UI, UX, front-end, developer, css, html, php, javascript, usability, print, brand",
-  "copyright": "© 2004-2023 &nbsp; Antonio Piu",
+  "description": "Design Director, Software Developer",
+  "keywords": "design, product, web, UI, UX, front-end, software, developer, css, html, php, javascript, usability, print, brand",
+  "copyright": "© 2004-2024 &nbsp; Antonio Piu",
   "accounts": [
     { 
       "name": "LinkedIn",
@@ -18,7 +18,7 @@
   ],
   "author": {
     "name": "Antonio Piu",
-    "email": "me@antoniopiu.com",
+    "email": "hello@antoniopiu.com",
     "url": "https://antoniopiu.com"
   }
 }

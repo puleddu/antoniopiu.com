@@ -24,7 +24,7 @@ I like **photography**, fixing old typewriters, and singing. During my time in P
 
 All the photos[^2] used to showcase my work have been taken using both my film and digital cameras.
 
-The website is generated using [Eleventy](https://www.11ty.dev/), and served through [GitHub](https://github.com/puleddu). The content is "typesetted" using [Merriweather](https://fonts.google.com/specimen/Merriweather) and its _sans_ companion [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans), while the font I used to create the header logo is [Stacked](https://creativemarket.com/denilchan/3398-Stacked-Font) by [Denise Chandler](https://denisechandler.com/fonts/). 
+The website is generated using [Eleventy](https://www.11ty.dev/) and served through [GitHub](https://github.com/puleddu). The content is "typesetted" using [Merriweather](https://fonts.google.com/specimen/Merriweather) and its _sans_ companion [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans), while the font I used to create the header logo is [Stacked](https://creativemarket.com/denilchan/3398-Stacked-Font) by [Denise Chandler](https://denisechandler.com/fonts/). 
 
 I also used a number of other tools.[^3]
 
